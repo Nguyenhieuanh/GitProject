@@ -12,17 +12,37 @@
         line-height: 30px;
         font-size: small;
     }
-td,tr{
-    text-align: left;
-    vertical-align: top;
-}
+
+    #myForm {
+        display: none;
+    }
+
+    td, tr {
+        text-align: left;
+        vertical-align: top;
+    }
+
     fieldset {
         width: 100%;
     }
 </style>
+<script>
+    function showForm() {
+        document.getElementById("myForm").style.display = "block";
+
+    }
+
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+
+    }
+</script>
 <body style="background-color:snow">
 <h2 align="center">PHIẾU ĐĂNG KÝ GỬI HÀNG HOÁ</h2>
-<form action="#" method="post">
+<Button onclick="showForm()">Mở</Button>
+<input type="button" value="Đóng" onclick="closeForm()">
+<br>
+<form action="#" method="post" id="myForm">
     <fieldset>
         <table>
             <tr>
@@ -136,7 +156,6 @@ td,tr{
                 <td align="left">
                     <input type="submit" name="Gửi" value="Gửi" onclick="alert('Gửi thành công')">
                     <input type="submit" name="Khôi phục" value="Reset">
-                    <input type="button" name="123" value="123">
                 </td>
             </tr>
         </table>
