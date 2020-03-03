@@ -17,11 +17,20 @@
         display: block;
     }
 
+    .tb1 {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid black;
+        text-align: center;
+        margin: 30px auto 100px;
+    }
+
     td, tr {
         text-align: left;
         vertical-align: top;
     }
 
+    }
     fieldset {
         width: 100%;
     }
@@ -164,6 +173,47 @@
             </tr>
         </table>
     </fieldset>
+    <table class="tb1">
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Số lượng</th>
+            <th>Cân nặng</th>
+            <th>Thao tác</th>
+        </tr>
+        <tr>
+            <td>Giày</td>
+            <td>2</td>
+            <td>3kg</td>
+            <td>
+                <button type="button" onclick="">Sửa</button>
+                <button type="button" onclick="">Xóa</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Quần áo</td>
+            <td>1</td>
+            <td>1kg</td>
+            <td>
+                <button type="button" onclick="">Sửa</button>
+                <button type="button" onclick="">Xóa</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Mỹ phẩm</td>
+            <td>1</td>
+            <td>5kg</td>
+            <td>
+                <button type="button" onclick="">Sửa</button>
+                <button type="button" onclick="">Xóa</button>
+            </td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td></td>
+        </tr>
+    </table>
 </form>
 </body>
 </html>
