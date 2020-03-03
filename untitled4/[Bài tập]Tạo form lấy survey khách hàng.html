@@ -11,6 +11,10 @@
             font-size: smaller;
         }
 
+        #hint {
+            display: none;
+        }
+
         h2 {
             margin: 10px 0 10px
         }
@@ -49,6 +53,15 @@
             border-collapse: collapse;
         }
     </style>
+    <script>
+        function Showhint() {
+            document.getElementById("hint").style.display = "block";
+        }
+
+        function Closehint() {
+            document.getElementById("hint").style.display = "none";
+        }
+    </script>
 </head>
 <body>
 <h2>Market Research Survey</h2>
@@ -69,9 +82,10 @@
     <option value="100,000+">$100,000+</option>
 </select>
 <p>Gender</p>
-<input type="radio" name="Gender" value="Male">Male<br>
-<input type="radio" name="Gender" value="Female">Female<br>
-<input type="radio" name="Gender" value="Other" onfocus="focus()">Other<br>
+<input type="radio" name="Gender" value="Male" onclick="Closehint()">Male<br>
+<input type="radio" name="Gender" value="Female" onclick="Closehint()">Female<br>
+<input type="radio" name="Gender" value="Other" onclick="Showhint()">Other<br>
+<input type="text" name="other" id="hint" placeholder="Maximum of 250 characters">
 <p>Which of the following products have your purchased in the 2 months. Please check all that apply.</p>
 <input type="checkbox" name="product">Product 1<br>
 <input type="checkbox" name="product">Product 2<br>
