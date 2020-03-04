@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<style>
+    th, td {
+        text-align: center;
+        width: 180px;
+    }
+
+    select {
+        width: 120px;
+    }
+
+    button {
+        background-color: blue;
+        color: white;
+        width: 80px;
+        height: 30px;
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th>
+            <button onclick="conVert()">Convert</button>
+        </th>
+    </tr>
+    <td><input type="text" id="money"></td>
+    <td>
+        <select id="s1">
+            <option value="VND" id="vn1">VietNam</option>
+            <option value="USD" id="us1">USA</option>
+        </select>
+    </td>
+    <td>
+        <select id="s2">
+            <option value="USD" id="vn2">USD</option>
+            <option value="VND" id="us2">VND</option>
+        </select>
+    </td>
+    <td><input type="text" id="kq"></td>
+</table>
+</body>
+<script>
+    const A = 23787
+    function conVert() {
+        let a = document.getElementById('money'),
+            b = document.getElementById('s1').value,
+            b1 = document.getElementById('vn1').value,
+            c = document.getElementById('s2').value;
+            a = parseFloat(a.value)
+        if (b == c) {
+            document.getElementById('kq').value = a;
+        } else {
+            if (b == b1) {
+                document.getElementById('kq').value = a / A;
+            } else {
+                document.getElementById('kq').value = a * A;
+            }
+        }
+    }
+
+</script>
+</html>

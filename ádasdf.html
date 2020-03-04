@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Biểu mẫu</title>
+    <style>
+        td {
+            text-align: center;
+        }
+        #myForm{
+            display: none;
+        }
+        #myForm1{
+            display: none;
+        }
+        #myTable{
+            border-collapse: collapse;
+        }
+    </style>
+    <script>
+        function showForm(){
+            document.getElementById("myForm").style.display = "block";
+
+        }
+        function closeForm(){
+            document.getElementById("myForm").style.display = "none";
+
+        }
+    </script>
+    <script>
+        function showForm1(){
+            document.getElementById("myForm1").style.display = "block";
+
+        }
+        function closeForm1(){
+            document.getElementById("myForm1").style.display = "none";
+
+        }
+        console.log(document)
+    </script>
+
+</head>
+<body>
+<script>
+    let a = prompt("nhập giá trị a"),
+        b = prompt("nhập giá trị b"),
+        c = prompt("nhập giá trị c")
+    let max = a > b ? (b>c?b:c):(c>a?c:a);
+    alert(max)
+</script>
+</body>
+</html>

@@ -4,216 +4,44 @@
     <meta charset="UTF-8">
     <title>Đăng ký gửi hàng</title>
 </head>
-<style>
-    body {
-        width: 600px;
-        margin: auto auto 20px;
-        font-family: "Lucida Sans Unicode", sans-serif;
-        line-height: 30px;
-        font-size: small;
-    }
-
-    #myForm {
-        display: block;
-    }
-
-    .tb1 {
-        width: 100%;
-        border-collapse: collapse;
-        border: 1px solid black;
-        text-align: center;
-        margin: 30px auto 100px;
-    }
-
-    td, tr {
-        text-align: left;
-        vertical-align: top;
-    }
-
-    }
-    fieldset {
-        width: 100%;
-    }
-</style>
-<script>
-    function showForm() {
-        document.getElementById("myForm").style.display = "block";
-
-    }
-
-    function closeForm() {
-        document.getElementById("myForm").style.display = "none";
-
-    }
-</script>
 <body style="background-color:snow">
 <h2 align="center">PHIẾU ĐĂNG KÝ GỬI HÀNG HOÁ</h2>
-<Button onclick="showForm()">Mở</Button>
-<input type="button" value="Đóng" onclick="closeForm()">
-<br>
-<form action="#" method="post" id="myForm">
-    <fieldset>
-        <table>
-            <tr>
-                <th><label for="id">Tên đăng nhập</label></th>
-                <td><input type="text" id="id" name="id" placeholder="Tên đăng nhập"></td>
-            </tr>
-            <tr>
-                <th><label for="Pw">Mật khẩu</label></th>
-                <td><input type="password" id="Pw" name="Pw" placeholder="Mật khẩu"></td>
-            </tr>
-            <input type="hidden" name="postId" value="3487">
-        </table>
-    </fieldset>
-    <fieldset>
-        <legend><h3>Thông tin người gửi</h3></legend>
-        <table>
-            <tr>
-                <th>Họ tên</th>
-                <td><input type="text" name="họ và tên người gửi" placeholder="Họ tên người gửi"></td>
-            </tr>
-            <tr>
-                <th>Số điện thoại</th>
-                <td><input type="text" name="điện thoại" placeholder="Số điện thoại"></td>
-            </tr>
-            <tr>
-                <th>Địa chỉ</th>
-                <td><input tyepe="text" name="địa chỉ lấy hàng" placeholder="Địa chỉ lấy hàng"></td>
-            </tr>
-            <tr>
-                <th>Ngày gửi</th>
-                <td><input type="date" name="Ngày gửi"></td>
-            </tr>
-        </table>
-    </fieldset>
-    <fieldset>
-        <legend><h3>Thông tin người nhận</h3></legend>
-        <table>
-            <tr>
-                <th>Họ tên</th>
-                <td><input type="text" name="họ và tên người nhận" placeholder="Họ tên người nhận"></td>
-            </tr>
-            <tr>
-                <th>Số điện thoại</th>
-                <td><input type="text" name="điện thoại" placeholder="Số điện thoại"></td>
-            </tr>
-            <tr>
-                <th>Địa chỉ</th>
-                <td><input tyepe="text" name="địa chỉ lấy hàng" placeholder="Địa chỉ lấy hàng"></td>
-            </tr>
-        </table>
-    </fieldset>
-    <fieldset>
-        <legend><h3>Thông tin hàng hoá</h3></legend>
-        <table>
-            <tr>
-                <th>Tên sản phẩm</th>
-                <td><input type="number" name="Số lượng" PLACEHOLDER="Sổ lượng"></td>
-            </tr>
-            <tr>
-                <th>Số lượng</th>
-                <td><input type="text" name="Cân nặng" size="5" placeholder="Cân nặng"> kg</td>
-            </tr>
-            <tr>
-                <th>Cân nặng</th>
-                <td><input tyepe="text" name="địa chỉ lấy hàng" placeholder="Địa chỉ lấy hàng"></td>
-            </tr>
-            <tr>
-                <th>Giá trị hàng hoá</th>
-                <td><input type="text" name="giá trị hàng hoá" placeholder="Giá trị sản phẩm"></td>
-            </tr>
-            <tr>
-                <th>Ảnh sản phẩm</th>
-                <td><input type="file" name="Photo"></td>
-            </tr>
-        </table>
-
-    </fieldset>
-    <fieldset>
-        <legend><h3>Yêu cầu</h3></legend>
-        <table>
-            <tr>
-                <th>Hình thức gửi</th>
-                <td><input type="Radio" name="Ghi chú">Gửi thường <input type="radio" name="Ghi chú">COD</td>
-            </tr>
-            <tr>
-                <th>Thời gian gửi</th>
-                <td><select name="Thời gian gửi">
-                    <option name="Thời gian gửi">Gửi thường</option>
-                    <br>
-                    <option name="Thời gian gửi">Nhanh 2 giờ</option>
-                    <br>
-                    <option name="Thời gian gửi">Nhanh 4 giờ</option>
-                    <br>
-                </select>
-                </td>
-            </tr>
-            <tr>
-                <th rowspan="4">Ghi chú</th>
-                <td><input type="checkbox" name="Ghi chú">Gọi cho người gửi khi không gọi được khách</td>
-            </tr>
-            <tr>
-                <td><input type="checkbox" name="Ghi chú">Cho khách kiểm tra hàng trước</td>
-            </tr>
-            <tr>
-                <td><input type="checkbox" name="Ghi chú">Không tự ý hoàn hàng</td>
-            </tr>
-            <tr>
-                <td><input type="checkbox" name="Ghi chú"></td>
-            </tr>
-            <tr>
-                <th rowspan="10">Yêu cầu khác</th>
-                <td><textarea name="Ghi chú" placeholder="Ghi chú" rows="10" cols="65"></textarea></td>
-            </tr>
-            <tr>
-                <td align="left">
-                    <input type="submit" name="Gửi" value="Gửi" onclick="alert('Gửi thành công')">
-                    <input type="submit" name="Khôi phục" value="Reset">
-                </td>
-            </tr>
-        </table>
-    </fieldset>
-    <table class="tb1">
-        <tr>
-            <th>Sản phẩm</th>
-            <th>Số lượng</th>
-            <th>Cân nặng</th>
-            <th>Thao tác</th>
-        </tr>
-        <tr>
-            <td>Giày</td>
-            <td>2</td>
-            <td>3kg</td>
-            <td>
-                <button type="button" onclick="">Sửa</button>
-                <button type="button" onclick="">Xóa</button>
-            </td>
-        </tr>
-        <tr>
-            <td>Quần áo</td>
-            <td>1</td>
-            <td>1kg</td>
-            <td>
-                <button type="button" onclick="">Sửa</button>
-                <button type="button" onclick="">Xóa</button>
-            </td>
-        </tr>
-        <tr>
-            <td>Mỹ phẩm</td>
-            <td>1</td>
-            <td>5kg</td>
-            <td>
-                <button type="button" onclick="">Sửa</button>
-                <button type="button" onclick="">Xóa</button>
-            </td>
-        </tr>
-        <tr>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-            <td></td>
-        </tr>
-    </table>
+<form action="#" method="post">
+<fieldset style="width:40%; margin: auto"><legend><h3>Thông tin người gửi</h3></legend>
+    Họ tên <input type="text" name="họ và tên người gửi" placeholder="Họ tên người gửi"><br><br>
+    Số điện thoại <input type="text" name="điện thoại" placeholder="Số điện thoại"><BR><br>
+    Địa chỉ <input tyepe="text" name="địa chỉ lấy hàng" placeholder="Địa chỉ lấy hàng"><br><br>
+</fieldset>
+<fieldset style="width:40%; margin: auto"><legend><h3>Thông tin người nhận</h3></legend>
+    Họ tên <input type="text" name="họ tên người nhận" placeholder="Họ tên người nhận"><br><br>
+    Số điện thoại <input type="text" name="điện thoại" placeholder="Số điện thoại"><br><br>
+    Địa chỉ <input type="text" name="địa chỉ giao hàng" placeholder="Địa chỉ giao hàng"><br><br>
+</fieldset>
+<fieldset style="width:40%; margin: auto"><legend><h3>Thông tin hàng hoá</h3></legend>
+    Tên sản phẩm <input type="text" name="tên sản phẩm" placeholder="Tên sản phẩm"><br><br>
+    Số lượng <input type="number" name="Số lượng" PLACEHOLDER="Sổ lượng"><BR><BR>
+    Cân nặng <input type="text" name="Cân nặng" size="5" placeholder="Cân nặng"> kg <br><br>
+    Giá trị hàng hoá <input type="text" name="giá trị hàng hoá" placeholder="Giá trị sản phẩm"><br><br>
+</fieldset>
+<fieldset style="width:40%; margin: auto"><legend><h3>Yêu cầu</h3></legend>
+    Hình thức gửi<br><br>
+    <input type="Radio" name="Ghi chú">Gửi thường <input type="radio" name="Ghi chú">COD
+    <p>Thời gian gửi</p>
+        <select name="Thời gian gửi">
+            <option name="Thời gian gửi">Gửi thường</option>
+            <option name="Thời gian gửi">Nhanh 2 giờ</option>
+            <option name="Thời gian gửi">Nhanh 4 giờ</option>
+        </select>
+    <p>Ghi chú</p>
+        <input type="checkbox" name="Ghi chú">Gọi cho người gửi khi không gọi được khách<br>
+        <input type="checkbox" name="Ghi chú">Cho khách kiểm tra hàng trước<br>
+        <input type="checkbox" name="Ghi chú">Không tự ý hoàn hàng<br>
+        <input type="checkbox" name="Ghi chú"><br><br>
+    Yêu cầu khác<br>
+        <textarea name="Ghi chú" placeholder="Ghi chú" rows="10" cols="70"></textarea>
+        <input type="submit" name="Gửi" value="Gửi" onclick="alert('Gửi thành công')">
+        <input type="submit" name="Khôi phục" value="Reset">
+</fieldset>
 </form>
 </body>
 </html>
