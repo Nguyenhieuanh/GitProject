@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    th {
+        text-align: left;
+    }
+</style>
+<body>
+<h2>B1: NHẬP ĐIỂM LÝ HOÁ SINH, TÍNH TỔNG VÀ TRUNG BÌNH</h2>
+<table>
+    <tr>
+        <th>Điểm Lý</th>
+        <td><input type="text" name="a" id="Phys"></td>
+    </tr>
+    <tr>
+        <th>Điểm Hoá</th>
+        <td><input type="text" name="b" id="Chem"></td>
+    </tr>
+    <tr>
+        <th>Điểm Sinh</th>
+        <td><input type="text" name="Boilp" id="Biol"></td>
+    </tr>
+    <tr>
+        <th><button onclick="Sum()"> Tổng</button></th>
+        <td><input type="text" id="sum"></td>
+    </tr>
+    <tr>
+        <th><button onclick="Average()">TB</button></th>
+        <td><input type="text" id="avg"></td>
+    </tr>
+</table>
+
+<h2>CHUYỂN ĐỘ C SANG ĐỘ F</h2>
+<input type="text" name="DoC" id="c1"> &ordmC
+<input type="text" name="DocF" id="f1"> &ordmF
+<button name="convert" onclick="Convert()">Convert</button>
+
+<h2>TÍNH DIỆN TÍCH HÌNH TRÒN VÀ CHU VI HÌNH TRÒN</h2>
+
+<table>
+    <tr>
+        <th>Bán kính</th>
+        <td><input type="text" name="ban_kinh" id="bk"></td>
+    </tr>
+    <tr>
+        <th><button onclick="dienTich()">Diện tích</button></th>
+        <td><input type="text" name="dien_tich" id="dt"></td>
+    </tr>
+    <tr>
+        <th><button onclick="chuVi()">Chu Vi</button></th>
+        <td><input type="text" name="chu_vi" id="cv"></td>
+    </tr>
+</table>
+
+</body>
+<script>
+    let a, b, c; // giá trị 3 điểm lý hoá sinh
+    a = document.getElementById('Phys');
+    b = document.getElementById('Chem');
+    c = document.getElementById('Biol');
+
+    function Sum() {
+        document.getElementById('sum').value = parseFloat(a.value) + parseFloat(b.value) + parseFloat(c.value);
+    } // tổng điểm 3 môn
+
+    function Average() {
+        document.getElementById('avg').value = (parseFloat(a.value) + parseFloat(b.value) + parseFloat(c.value)) / 3
+    } // điểm TB 3 môn
+
+    let doC = document.getElementById('c1');
+
+    function Convert() {
+        document.getElementById('f1').value = parseFloat(doC.value)*9/5 + 32;
+    } // chuyển độ C sang độ F
+
+    const PI=3.14159
+    let r = document.getElementById('bk');
+
+    function chuVi() {
+        document.getElementById('cv').value = parseFloat(r.value)*2*PI;
+    } // chu vi hình tròn
+
+    function dienTich() {
+        document.getElementById('dt').value = parseFloat(r.value)**2*PI;
+    } // diện tích hình tròn
+</script>
+</html>
