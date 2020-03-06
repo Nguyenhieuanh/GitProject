@@ -20,3 +20,6 @@ function output(obj) {
     if (obj === 'cos') result.value = Math.cos(result.value*Math.PI/180);
     if (obj === 'tan') result.value = Math.tan(result.value*Math.PI/180);
 }
+let number = +prompt("Nhap so: ");
+let num = +prompt("Khai can n: ")
+console.log(Math.pow(number,1/num));
