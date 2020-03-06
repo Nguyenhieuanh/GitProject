@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+fieldset.f1 {
+    background-color: #ffaa36;
+    margin-bottom: 50px;
+}
+
+th {
+    background-color: #ffaa36;
+    font-size: medium;
+    vertical-align: auto;
+    padding: 6px 6px 6px 6px;
+    font-weight: normal;
+}
+
+td {
+    text-align: center;
+}
+
+sub {
+    color: black;
+    font-size: x-small;
+}
+
+table.chessboard {
+    margin: 80px auto;
+    background: white;
+    border-collapse: collapse;
+}
+
+td.chessboard {
+    width: 60px;
+    height: 60px;
+}
+
+tr.chessboard:nth-child(odd) td.chessboard:nth-child(even),
+tr.chessboard:nth-child(even) td.chessboard:nth-child(odd) {
+    background: black;
+}
+
+table.calendar {
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    width: 600px;
+}
+
+th.calendar {
+    color: white;
+    border: 1px solid white;
+}
+
+td.calendar {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.sun {
+    background-color: red;
+    color: white;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+.Sun {
+    color: red;
+    border: 1px solid #bfbfbf;
+    border-collapse: collapse;
+}
+
+.Sat {
+    color: blue;
+    border: 1px solid #bfbfbf;
+    border-collapse: collapse;
+}
+
+.Sun1 {
+    color: red;
+    border-collapse: collapse;
+}
+
+.Sat1 {
+    color: blue;
+    border-collapse: collapse;
+}
+
+.sat {
+    background-color: blue;
+    color: white;
+    border-collapse: collapse;
+    border: 1px solid white;
+}

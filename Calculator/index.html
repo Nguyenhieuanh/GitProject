@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Máy tính nâng cao</title>
+    <link rel="stylesheet" href="Style/dinh_dang.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="6"><input type="text" id="result"></td>
+    </tr>
+    <tr>
+        <td>
+            <button value="squrt" onclick="output(this.value)"><sup>2</sup>&radic;</button>
+        </td>
+        <td>
+            <button value="**2" onclick="clickbutton(this.value)">x<sup>2</sup></button>
+            </sub></but></td>
+        <td>
+            <button value="**" onclick="clickbutton(this.value)">x<sup>n</sup></button>
+            </sub></but></td>
+        <td>
+            <button value="(" onclick="clickbutton(this.value)">(</button>
+            </but></td>
+        <td>
+            <button value=")" onclick="clickbutton(this.value)">)</button>
+            </but></td>
+        <td>
+            <button value="C" onclick="clearscreen(this.value)">C</button>
+            </sub></but></td>
+    </tr>
+    <tr>
+        <td>
+            <button value="root" onclick="clickbutton(this.value)"><sup>n</sup>&radic;</button>
+        </td>
+        <td>
+            <button value="1" onclick="clickbutton(this.value)">1</button>
+        </td>
+        <td>
+            <button value="2" onclick="clickbutton(this.value)">2</button>
+        </td>
+        <td>
+            <button value="3" onclick="clickbutton(this.value)">3</button>
+        </td>
+        <td>
+            <button value="+" onclick="clickbutton(this.value)">+</button>
+        </td>
+        <td>
+            <button value="<-" onclick="clearscreen(this.value)">&larr;</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button value="sin" onclick="output(this.value)">sin</button>
+        </td>
+        <td>
+            <button value="4" onclick="clickbutton(this.value)">4</button>
+        </td>
+        <td>
+            <button value="5" onclick="clickbutton(this.value)">5</button>
+        </td>
+        <td>
+            <button value="6" onclick="clickbutton(this.value)">6</button>
+        </td>
+        <td>
+            <button value="-" onclick="clickbutton(this.value)">-</button>
+        </td>
+        <td>
+            <button value="%" onclick="output(this.value)">%</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button value="cos" onclick="output(this.value)">cos</button>
+        </td>
+        <td>
+            <button value="7" onclick="clickbutton(this.value)">7</button>
+        </td>
+        <td>
+            <button value="8" onclick="clickbutton(this.value)">8</button>
+        </td>
+        <td>
+            <button value="9" onclick="clickbutton(this.value)">9</button>
+        </td>
+        <td>
+            <button value="*" onclick="clickbutton(this.value)">&#215;</button>
+        </td>
+        <td rowspan="2">
+            <button style="height: 64px;" value="=" onclick="output(this.value)">=</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button value="tan" onclick="output(this.value)">tan</button>
+        </td>
+        <td colspan="2">
+            <button class="cbutton" value="0" onclick="clickbutton(this.value)">0</button>
+        </td>
+        <td>
+            <button value="." onclick="clickbutton(this.value)">.</button>
+        </td>
+        <td>
+            <button value="/" onclick="clickbutton(this.value)">&#247;</button>
+        </td>
+    </tr>
+</table>
+</body>
+<script src="function/Func.js"></script>
+</html>
