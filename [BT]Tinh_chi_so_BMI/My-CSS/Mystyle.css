@@ -1,0 +1,21 @@
+#conclude {
+    display: none;
+}
+h3 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+body {
+    width: 300px;
+    margin: auto;
+}
+table {
+    width: 100%;
+    height: 200px;
+    background-color: coral;
+}
+th {text-align: left;}
+
+p{
+    margin: 1px auto 1px;
+}
