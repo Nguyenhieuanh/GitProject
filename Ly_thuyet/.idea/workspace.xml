@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9671c0e-dad8-4bc0-97a8-60f38bd0c09c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../10_Cau_truc_lap_for/[TH]Su_dung_vong_lap_long_nhau/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BTVN/BT1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BTVN/BT2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calculator/.idea/.gitignore" beforeDir="false" />
@@ -20,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/../Doc 9 so/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Doc 9 so/My-JS/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Doc 9 so/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tam_giac/My-JS/My-JS.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tam_giac/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/.idea/[BT]Bien_dulieu_toantu.iml" beforeDir="false" />
@@ -203,6 +203,7 @@
       <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_do_while/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_for/BT1/BT.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_for/BT2/BT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_long_nhau/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_while/BT2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_while/indẽ.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/.idea/.gitignore" beforeDir="false" />
@@ -242,18 +243,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1YxkL2RpuPSR6y7c7aRdL3juZoS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../10_Cau_truc_lap_for/[BT]Sinh_bang_cuu_chuong/index.html" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -266,17 +270,20 @@
       <option name="presentableId" value="Default" />
       <updated>1583891573421</updated>
       <workItem from="1583891576432" duration="6983000" />
-      <workItem from="1583933522421" duration="1403000" />
+      <workItem from="1583933522421" duration="2226000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="759" y="118" key="FileChooserDialogImpl" timestamp="1583910109567">
+    <state x="759" y="118" key="FileChooserDialogImpl" timestamp="1583936218909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="759" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583910109567" />
+    <state x="759" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583936218909" />
   </component>
 </project>
