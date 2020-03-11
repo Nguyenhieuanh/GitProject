@@ -1,7 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9671c0e-dad8-4bc0-97a8-60f38bd0c09c" name="Default Changelist" comment="" />
+    <list default="true" id="e9671c0e-dad8-4bc0-97a8-60f38bd0c09c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BTVN/BT1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN/BT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/Style/dinh_dang.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/function/Func.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/.idea/Doc 9 so.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/My-JS/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Doc 9 so/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tam_giac/My-JS/My-JS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tam_giac/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/.idea/[BT]Bien_dulieu_toantu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/Function/Func.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Bien_dulieu_toantu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Cau_lenh_switch_case/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Cau_lenh_switch_case/.idea/[BT]Cau_lenh_switch_case.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Cau_lenh_switch_case/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Cau_lenh_switch_case/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Cau_lenh_switch_case/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Cau_lenh_switch_case/My-JS/JS-File.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Cau_lenh_switch_case/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/.idea/[BT]Chuyen_doi_tien_te.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/Function/Func.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Chuyen_doi_tien_te/style/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Game_puzzle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Hien_thi_cac_so_nguyen_to_dau_tien/.idea/[BT]Hien_thi_cac_so_nguyen_to_dau_tien.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Hien_thi_cac_so_nguyen_to_dau_tien/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Hien_thi_cac_so_nguyen_to_dau_tien/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Hien_thi_cac_so_nguyen_to_dau_tien/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Hien_thi_cac_so_nguyen_to_dau_tien/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Hien_thi_cac_so_nguyen_to_dau_tien/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/.idea/[BT]Luyen_tap_cau_truc_dieu_kien_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT5/My-JS/functioon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT6/My-JS/func.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT6/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT7/My-JS/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Luyen_tap_cau_truc_dieu_kien_1/BT7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_don_gian/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_don_gian/.idea/[BT]Tao_bang_don_gian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_don_gian/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_don_gian/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_don_gian/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_don_gian/Style/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_don_gian/[Bài tập] Tạo bảng đơn giản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_nang_cao/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_nang_cao/.idea/[BT]Tao_bang_nang_cao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_nang_cao/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_nang_cao/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_nang_cao/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_nang_cao/Style/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_bang_nang_cao/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_danh_sach/.idea/[BT]Tao_danh_sach.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_danh_sach/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_danh_sach/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_danh_sach/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_danh_sach/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_danh_sach/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_don_gian/.idea/[BT]Tao_form_don_gian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_don_gian/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_don_gian/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_don_gian/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_don_gian/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_don_gian/Style/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_don_gian/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/.idea/[BT]Tao_form_survey_khach_hang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/function/Func.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_form_survey_khach_hang/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_giao_dien_form_dang_ky_nguoi_dung/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_giao_dien_form_dang_ky_nguoi_dung/.idea/[BT]Tao_giao_dien_form_dang_ky_nguoi_dung.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_giao_dien_form_dang_ky_nguoi_dung/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_giao_dien_form_dang_ky_nguoi_dung/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_giao_dien_form_dang_ky_nguoi_dung/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tao_giao_dien_form_dang_ky_nguoi_dung/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/.idea/[BT]Tinh_chi_so_IBM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/My-CSS/Mystyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/My-JS/My-JS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_chi_so_BMI/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_so_ngay_trong_thang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_so_ngay_trong_thang/.idea/[BT]Tinh_so_ngay_trong_thang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_so_ngay_trong_thang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_so_ngay_trong_thang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_so_ngay_trong_thang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_so_ngay_trong_thang/My-JS/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Tinh_so_ngay_trong_thang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_do_you_love_me/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_do_you_love_me/.idea/[BT]Ung_dung_do_you_love_me.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_do_you_love_me/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_do_you_love_me/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_do_you_love_me/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_do_you_love_me/My-JS/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_do_you_love_me/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/.idea/[BT]Ung_dung_may_tinh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/Function/Func.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/Style/My-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]Ung_dung_may_tinh/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/.idea/BT_MTinh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/function/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[BT]_MTinh_don_gian/style/dinh_dang.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/.idea/[TH]Khai_bao_bien.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/BT1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/BT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Khai_bao_bien_su_dung_bien/BT3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Kiem_tra_nam_nhuan/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Kiem_tra_nam_nhuan/.idea/[TH]Kiem_tra_nam_nhuan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Kiem_tra_nam_nhuan/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Kiem_tra_nam_nhuan/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Kiem_tra_nam_nhuan/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Kiem_tra_nam_nhuan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else/.idea/[TH]Luyen_tap_voi_cau_truc_if_else.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else/ex01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else_if/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else_if/.idea/[TH]Luyen_tap_voi_cau_truc_if_else_if.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else_if/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else_if/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else_if/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_if_else_if/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/.idea/[TH]Luyen_tap_voi_cau_truc_switch_case.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/BT1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/BT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_cau_truc_switch_case/BT3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_toan_tu_3_ngoi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_toan_tu_3_ngoi/.idea/[TH]Luyen_tap_voi_toan_tu_3_ngoi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_toan_tu_3_ngoi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_toan_tu_3_ngoi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_toan_tu_3_ngoi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_toan_tu_3_ngoi/BT1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Luyen_tap_voi_toan_tu_3_ngoi/BT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_the_html_co_ban/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_the_html_co_ban/.idea/[TH]Su_dung_the_html_co_ban.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_the_html_co_ban/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_the_html_co_ban/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_the_html_co_ban/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_the_html_co_ban/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_toan_tu/.idea/[TH]Su_dung_toan_tu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_toan_tu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_toan_tu/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_toan_tu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_toan_tu/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_toan_tu/Function/thuattoan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_toan_tu/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_do_while/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_for/BT1/BT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_for/BT2/BT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_while/BT2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_dung_vong_lap_while/indẽ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/.idea/[TH]Su_kien_ban_phim.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/My-CSS/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/My-JS/Script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_ban_phim/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/.idea/[TH]Su_kien_chuot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/My-JS/My-JS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/My_CSS/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Su_kien_chuot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Tao_bang_co_ban/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Tao_bang_nang_cao/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Tao_form_co_ban/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../[TH]Tao_form_tim_kiem_co_ban/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +238,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YxkL2RpuPSR6y7c7aRdL3juZoS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,8 +251,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,6 +266,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583891573421</updated>
       <workItem from="1583891576432" duration="6983000" />
+      <workItem from="1583933522421" duration="1403000" />
     </task>
     <servers />
   </component>
