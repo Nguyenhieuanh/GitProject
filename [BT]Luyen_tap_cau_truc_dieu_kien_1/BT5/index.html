@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tính điểm trung bình và phân loại học tập</title>
+</head>
+<style>
+    th {
+        text-align: left;
+    }
+    .container {
+        width: 300px;
+        height: 250px;
+        margin: 50px 300px;
+        padding-top: 10px;
+        background-color: orange;
+    }
+</style>
+<body>
+<div class="container">
+    <h3>Tính điểm trung bình</h3>
+<table>
+    <tr>
+        <th>Điểm kiểm tra</th>
+        <td><input type="text" id="examPoint"></td>
+    </tr>
+    <tr>
+        <th>Điểm thi giữa kỳ</th>
+        <td><input type="text" id="mid_termExamPoint"></td>
+    </tr>
+    <tr>
+        <th>Điểm thi cuối kỳ</th>
+        <td><input type="text" id="finlExamPoint"></td>
+    </tr>
+    <tr>
+        <th>Điểm TB</th>
+        <td><input type="text" id="average"></td>
+    </tr>
+    <tr>
+        <th>Xếp loại</th>
+        <td><input type="text" id="rank"></td>
+    </tr>
+    <tr>
+        <th></th>
+        <td>
+            <button onclick="check()">Tính</button>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+<script src="My-JS/functioon.js"></script>
+</html>

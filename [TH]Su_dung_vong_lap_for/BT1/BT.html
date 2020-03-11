@@ -8,9 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-<input type="text" id="month">
-<button id="caldays" onclick="calDays()">Tính số ngày</button>
-<p id="conclude"></p>
+<h2>JavaScript Loops</h2>
+<p id="demo"></p>
 </body>
-<script src="My-JS/JS-File.js"></script>
+<script>
+    let text = "";
+    let i;
+    for (i = 0; i < 5; i++) {
+        text += "The number is " + i + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+</script>
 </html>

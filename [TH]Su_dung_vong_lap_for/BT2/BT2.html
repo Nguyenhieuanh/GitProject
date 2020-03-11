@@ -8,9 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-<input type="text" id="month">
-<button id="caldays" onclick="calDays()">Tính số ngày</button>
-<p id="conclude"></p>
+
 </body>
-<script src="My-JS/JS-File.js"></script>
+<script>
+    let num = prompt("Enter your number: ");
+    let total = 0;
+    let i = 1;
+    for (; i <= num; i += 1) {
+        total = total + i;
+    }
+    alert(total);
+</script>
 </html>

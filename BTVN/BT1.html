@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Số nguyên tố</title>
+</head>
+<body>
+<input type="text" id="inputNo1">
+<input type="text" id="inputNo2">
+<button onclick="sum()">Tổng</button>
+<div id="result">Result</div>
+</body>
+<script>
+    function sum() {
+        let number1 = parseInt(document.getElementById('inputNo1').value),
+            number2 = parseInt(document.getElementById('inputNo2').value);
+        let sum = 0;
+        for (i = number1; i <= number2; i++) {
+            let notPrime = false;
+            if (i < 2) {
+                notPrime = true;
+            }
+            for (j = 2; j <= i / 2; j++) {
+                if (i % j === 0) {
+                    notPrime = true;
+                }
+            }
+            if (notPrime === false) {
+                sum += i;
+            }
+        }
+        document.getElementById('result').innerHTML = 'Sum of prime numbers is: ' + sum;
+    }
+</script>
+</html>
