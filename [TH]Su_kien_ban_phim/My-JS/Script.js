@@ -26,22 +26,22 @@ window.addEventListener("keydown", function (event) {
     switch (event.key) {
         case "Down":
             downArrowPressed()
-        case "ArrowDown":
+        case "s":
             downArrowPressed()
             break;
         case "Up":
             upArrowPressed()
-        case "ArrowUp":
+        case "w":
             upArrowPressed()
             break;
         case "Left":
             leftArrowPressed()
-        case "ArrowLeft":
+        case "a":
             leftArrowPressed()
             break;
         case "Right":
             rightArrowPressed()
-        case "ArrowRight":
+        case "d":
             rightArrowPressed()
             break;
             break;
