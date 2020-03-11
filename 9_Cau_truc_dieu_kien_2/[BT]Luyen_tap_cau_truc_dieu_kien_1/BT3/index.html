@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div>Nhập số bất kỳ <input type="text" id="number">
+<button onclick="check()">Kiểm tra</button></div>
+<div id="conclude">Kết luận</div>
+</body>
+<script>
+function check() {
+    let number = parseFloat(document.getElementById('number').value);
+    result = ((number>0) ? (number + 'lớn hơn không') : (number<0 ? (number + 'nhỏ hơn không'):(number + 'bằng 0')));
+    document.getElementById('conclude').innerHTML = result;
+}
+</script>
+</html>

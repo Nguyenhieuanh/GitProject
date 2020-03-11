@@ -1,0 +1,60 @@
+.form1 {
+    width: 500px;
+    margin: auto auto 20px;
+    border: 10px solid aquamarine;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    line-height: 15px;
+    font-size: small;
+}
+
+.form2 {
+    padding-top: 1px;
+    width: 500px;
+    margin: auto;
+    background-color: #ffe250;
+    font-family: sans-serif;
+    line-height: 15px;
+    font-size: small;
+    font-weight: lighter;
+}
+
+h2.f1 {
+    text-align: center;
+    color: white;
+    background-color: #ffaa36;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+h2.f2 {
+    text-align: left;
+    color: blue;
+    background-color: aquamarine;
+    font-weight: lighter;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+th {
+    vertical-align: top;
+    text-align: right;
+    color: blue;
+}
+
+.register {
+    text-align: left;
+    padding-left: 5px;
+}
+
+table {
+    margin: auto
+}
+
+td {
+    width: 100px;
+    color: red;
+}
+
+.gender {
+    color: black;
+}

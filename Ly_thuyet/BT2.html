@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tính số ngày giữa 2 tháng trong 1 năm bất kỳ</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Ngày bắt đầu</th>
+        <td><input type="date" id="start"></td>
+    </tr>
+    <tr>
+        <th>Ngày kết thúc</th>
+        <td><input type="date" id="end"></td>
+    </tr>
+    <tr>
+        <th>Số ngày</th>
+        <td><input type="text" id="days"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button onclick="cal()">Tính</button>
+        </td>
+    </tr>
+</table>
+</body>
+<script>
+    function cal() {
+        let x = document.getElementById('start'),
+            y = document.getElementById('end'),
+            startDay = new Date(x.value),
+            endDay = new Date(y.value),
+            Days = (endDay.getTime() - startDay.getTime()) / (1000 * 3600 * 24);
+
+        document.getElementById('days').value = Days;
+    }
+</script>
+</html>

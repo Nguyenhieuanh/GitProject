@@ -1,0 +1,53 @@
+body {
+    padding: 50px 200px 200px 200px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+table {
+     background: #ffaa36;
+     border: 2px solid #515158;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+input {
+    font-size: large;
+    width: 99%;
+    text-align: right;
+    text-transform: uppercase;
+    height: 30px;
+    border: 1px solid;
+}
+
+.cbutton {
+    width: 84px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold ;
+    width: 40px;
+    height: 30px;
+    margin: auto;
+}
+
+.cbutton:hover {
+    font-size: larger;
+    color: white;
+    background-color: #d61b06;
+    font-weight: bolder;
+}
+
+button:hover {
+    font-size: larger;
+    color: white;
+    background-color: #d61b06;
+    font-weight: bolder;
+}
+
+sup {
+    font-size: xx-small;
+}

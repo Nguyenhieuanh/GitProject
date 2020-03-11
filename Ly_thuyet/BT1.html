@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quýt ngon</title>
+</head>
+<body>
+<pre>quýt ngon mỗi quả chia 3
+cam ngon mỗi quả chia ra làm 10
+mỗi người 1 miếng trăm người
+có 17 quả không nhiều đủ chia
+tính số cam, quýt</pre>
+</body>
+<script>
+    let soQuyt, soCam;
+    for(soQuyt = 0; soQuyt <= 17; soQuyt++){
+        for (soCam = 0; soCam <=17; soCam++) {
+            if ((soCam + soQuyt == 17) && (soCam*10+ soQuyt*3 == 100)) {
+                alert('Số cam là ' + soCam + ' Số quýt là ' + soQuyt );
+            }
+        }
+    }
+</script>
+</html>

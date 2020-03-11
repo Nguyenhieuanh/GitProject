@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+}
+h2 {
+    color: blue;
+    text-align: center;
+}
+table {
+    width: 650px;
+    margin: auto;
+    border-collapse: collapse;
+}
+.t1 {
+    color: blue;;
+    text-align: left;
+}
+
+td.t2 {
+    color: blue;
+    text-align: right;
+}
+
+.t3 {
+    border-collapse: collapse;
+    border: 2px solid #767672;
+}
+
+tr:nth-child(5) {
+    background-color: orange;
+}
+tr:nth-child(4) th:nth-child(n+2) {
+    background-color: yellow;
+}
+.style1 {
+    width: 40px;
+    text-align: center;
+}
+.style2 {
+    width: 120px;
+}
+
+.style3 {
+    width: 140px;
+}
