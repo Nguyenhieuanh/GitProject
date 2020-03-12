@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c460f12-1991-4ccc-863d-c78e608c7c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/TH_Dao_nguoc_cac_phan_tu_trong_mang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Dao_nguoc_cac_phan_tu_trong_mang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_ban_co_caro/.idea/TH_Tao_ban_co_caro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_ban_co_caro/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_ban_co_caro/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_ban_co_caro/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_ban_co_caro/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_va_thao_tac_voi_mang/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_va_thao_tac_voi_mang/.idea/TH_Tao_va_thao_tac_voi_mang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_va_thao_tac_voi_mang/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_va_thao_tac_voi_mang/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_va_thao_tac_voi_mang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_va_thao_tac_voi_mang/My-JS/Function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tao_va_thao_tac_voi_mang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_lon_nhat_trong_mang/.idea/TH_Tim_gia_tri_lon_nhat_trong_mang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_lon_nhat_trong_mang/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_lon_nhat_trong_mang/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_lon_nhat_trong_mang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_lon_nhat_trong_mang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_trong_mang/.idea/TH_Tim_gia_tri_trong_mang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_trong_mang/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_trong_mang/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_trong_mang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../11_Mang_1/TH_Tim_gia_tri_trong_mang/index.html" afterDir="false" />
+    <list default="true" id="1d3bef46-e095-48bb-9d25-db3c5480ceec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/TH_Dao_nguoc_cac_phan_tu_trong_mang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Dao_nguoc_cac_phan_tu_trong_mang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Dao_nguoc_cac_phan_tu_trong_mang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Tao_va_thao_tac_voi_mang/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Tao_va_thao_tac_voi_mang/.idea/TH_Tao_va_thao_tac_voi_mang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Tao_va_thao_tac_voi_mang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Tao_va_thao_tac_voi_mang/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Tao_va_thao_tac_voi_mang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Tao_va_thao_tac_voi_mang/My-JS/Function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH_Tao_va_thao_tac_voi_mang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TH_Tim_gia_tri_trong_mang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Ly_thuyet/BTVN/11_3_2020/BT1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Calculator/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Calculator/.idea/Calculator.iml" beforeDir="false" />
@@ -195,7 +185,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1YyM0MLsb20wUFR5IaluMhHUCFu" />
+  <component name="ProjectId" id="1YzXs09puH3x0xCYvs9Wp9PuL5Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -208,21 +198,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Ly_thuyet" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TH_Tim_gia_tri_lon_nhat_trong_mang" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c460f12-1991-4ccc-863d-c78e608c7c3b" name="Default Changelist" comment="" />
-      <created>1583910156081</created>
+      <changelist id="1d3bef46-e095-48bb-9d25-db3c5480ceec" name="Default Changelist" comment="" />
+      <created>1583946598976</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583910156081</updated>
-      <workItem from="1583910158797" duration="8559000" />
-      <workItem from="1583975273245" duration="692000" />
+      <updated>1583946598976</updated>
+      <workItem from="1583946600166" duration="322000" />
     </task>
     <servers />
   </component>
@@ -230,17 +218,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="759" y="118" key="FileChooserDialogImpl" timestamp="1583977048499">
+    <state x="759" y="118" key="FileChooserDialogImpl" timestamp="1583946920727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="759" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583977048499" />
-    <state x="368" y="0" key="SettingsEditor" timestamp="1583975317877">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583975317877" />
-    <state x="642" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583914440666">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="642" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583914440666" />
+    <state x="759" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583946920727" />
   </component>
 </project>

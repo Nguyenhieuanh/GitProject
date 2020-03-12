@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    let num1 = +prompt('Nhập vào số đầu:'),
+        num2 = +prompt('Nhập số cuối:');
+    let sum_odd = 0;
+    for (let i=num1; i<=num2; i++) {
+        if (i % 2 == 0)
+            sum_odd += i;
+    }
+    document.write(sum_odd);
+</script>
+</html>
