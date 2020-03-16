@@ -12,7 +12,6 @@ function drawGameBoard() {
         caro += '<tr>';
         arr[i] = [];
         for (let j = 0; j < cols; j++) {
-            arr[i][j] = '*';
             caro += '<td onclick="play(this,' + i + ',' + j + ')">' + '</td>';
         }
         caro += '</tr>';
@@ -33,7 +32,7 @@ function play(cell, x, y) {
                 arr[x][y] = str1.fontcolor("blue");
                 break;
             case 2:
-                cell.innerHTML = str2.fontcolor("red") ;
+                cell.innerHTML = str2.fontcolor("red");
                 PLAYED = 1;
                 arr[x][y] = str2.fontcolor("red");
                 break;
@@ -48,26 +47,32 @@ function play(cell, x, y) {
 }
 
 function checkwin(cell, x, y) {
-    let i = 1;
-    let j = 1;
-    let count = 1;
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while ((y + i) < cols && arr[x][y + i] === cell.innerHTML) {
         i++;
         count++;
     }
-
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while (y - j >= 0 && arr[x][y - j] === cell.innerHTML) {
         j++;
         count++;
     }
-
+    console.log(count);
     gameOver(count);
-
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while (x + i < rows && arr[x + i][y] === cell.innerHTML) {
         i++;
         count++;
     }
-
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while (x - j >= 0 && arr[x - j][y] === cell.innerHTML) {
         j++;
         count++;
@@ -75,6 +80,9 @@ function checkwin(cell, x, y) {
 
     gameOver(count);
 
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while (x + i < rows && y + j < cols && arr[x + i][y + j] === cell.innerHTML) {
         i++;
         j++;
@@ -83,6 +91,9 @@ function checkwin(cell, x, y) {
 
     gameOver(count);
 
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while (x - i >= 0 && y - j >= 0 && arr[x - i][y - j] === cell.innerHTML) {
         i++;
         j++;
@@ -91,6 +102,9 @@ function checkwin(cell, x, y) {
 
     gameOver(count);
 
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while (x + i < rows && y - j >= 0 && arr[x + i][y - j] === cell.innerHTML) {
         i++;
         j++;
@@ -99,6 +113,9 @@ function checkwin(cell, x, y) {
 
     gameOver(count);
 
+    var i = 1;
+    var j = 1;
+    var count = 1;
     while (x - i >= 0 && y + j < cols && arr[x - i][y + j] === cell.innerHTML) {
         i++;
         j++;
