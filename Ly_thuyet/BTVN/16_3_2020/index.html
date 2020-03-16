@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    let myArray;
+    let nRow, nColumn;
+
+    function initArray() {
+        nRow = +prompt("Nhập số dòng: ");
+        nColumn = +prompt("Nhập số cột: ");
+
+        myArray = new Array(nRow);
+        for (let i = 0; i < nRow; i++) {
+            myArray[i] = new Array(nColumn);
+            for (let j = 0; j < nColumn; j++)
+                myArray[i][j] = Math.round(Math.random() * 1000);
+        }
+    }
+
+    function showArray() {
+        let i, j;
+        document.write("<table border='1px'>");
+        for (i = 0; i < nRow; i++) {
+            document.write("<tr>");
+            for (j = 0; j < nColumn; j++) {
+                document.write("<td>" + myArray[i][j] + "</td>");
+            }
+            document.write('</tr>');
+        }
+    }
+
+    document.write("</table>");
+
+    function calRowSum(rowIndex) {
+        if (rowIndex < 0 || rowIndex >= nRow)
+            return 0;
+
+        let sum = 0;
+        for (let i = 0; i < nColumn; i++) {
+            sum += myArray[rowIndex][i];
+        }
+        return sum;
+    }
+
+    function calColSum(colIndex) {
+        if (colIndex < 0 || colIndex >= nColumn)
+            return 0;
+
+        let sum = 0;
+        for (let i = 0; i < nRow; i++) {
+            sum += myArray[i][colIndex];
+        }
+        return sum;
+    }
+
+    function calEvenValueSum() {
+        let sum = 0;
+        for (let i = 0; i < nRow; i++) {
+            for (let j = 0; j < nColumn; j++)
+                if (myArray[i][j] % 2 === 0) {
+                    sum += myArray[i][j];
+                }
+            console.log(sum);
+            return sum;
+        }
+    }
+
+        initArray();
+        showArray();
+        document.write("Tổng hàng là: " + calRowSum(3) + "<br/>");
+        document.write("Tổng cột là: " + calColSum(3) + "<br>");
+        document.write("Tổng các giá trị chẵn là:" + calEvenValueSum() + "<br>");
+</script>
+
+</html>
