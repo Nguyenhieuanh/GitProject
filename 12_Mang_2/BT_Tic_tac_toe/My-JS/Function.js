@@ -48,78 +48,72 @@ function play(cell, x, y) {
 
 function checkwin(cell, x, y) {
     var i = 1;
-    var j = 1;
     var count = 1;
     while ((y + i) < cols && arr[x][y + i] === cell.innerHTML) {
         i++;
         count++;
+        console.log(count);
     }
-    var i = 1;
+
     var j = 1;
-    var count = 1;
     while (y - j >= 0 && arr[x][y - j] === cell.innerHTML) {
         j++;
         count++;
+        console.log(count);
     }
-    console.log(count);
     gameOver(count);
+
     var i = 1;
     var j = 1;
-    var count = 1;
     while (x + i < rows && arr[x + i][y] === cell.innerHTML) {
         i++;
         count++;
+        console.log(count);
     }
-    var i = 1;
-    var j = 1;
-    var count = 1;
     while (x - j >= 0 && arr[x - j][y] === cell.innerHTML) {
         j++;
         count++;
+        console.log(count);
     }
 
     gameOver(count);
-
     var i = 1;
     var j = 1;
-    var count = 1;
-    while (x + i < rows && y + j < cols && arr[x + i][y + j] === cell.innerHTML) {
+    while ((x + i) < rows && (y + j) < cols && arr[x + i][y + j] === cell.innerHTML) {
         i++;
         j++;
         count++;
+        console.log(count);
     }
 
     gameOver(count);
-
     var i = 1;
     var j = 1;
-    var count = 1;
-    while (x - i >= 0 && y - j >= 0 && arr[x - i][y - j] === cell.innerHTML) {
+    while ((x - i) >= 0 && (y - j) >= 0 && arr[x - i][y - j] === cell.innerHTML) {
         i++;
         j++;
         count++;
+        console.log(count);
     }
 
     gameOver(count);
-
     var i = 1;
     var j = 1;
-    var count = 1;
     while (x + i < rows && y - j >= 0 && arr[x + i][y - j] === cell.innerHTML) {
         i++;
         j++;
         count++;
+        console.log(count);
     }
 
     gameOver(count);
-
     var i = 1;
     var j = 1;
-    var count = 1;
     while (x - i >= 0 && y + j < cols && arr[x - i][y + j] === cell.innerHTML) {
         i++;
         j++;
         count++;
+        console.log(count);
     }
     gameOver(count);
 
@@ -127,7 +121,7 @@ function checkwin(cell, x, y) {
 }
 
 function gameOver(count) {
-    if (count === 5) {
+    if (count > 4) {
         alert("Game over");
         isGameOver = true;
     }
