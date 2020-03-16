@@ -2,69 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tic - tac - toe</title>
     <style>
         tr, td {
-            width: auto;
-            height: auto;
+            width: 40px;
+            height: 40px;
             border: 1px solid;
+            text-align: center;
         }
 
         table {
-            width: 300px;
-            height: 300px;
+            width: auto;
+            height: auto;
             border: 1px solid black;
             border-collapse: collapse;
             float: left;
+            table-layout: fixed;
         }
 
-        .cell {
-            width: auto;
-        }
     </style>
 </head>
 <body>
-<p id="game_board"></p>
 </body>
-<script>
-    let caro = "<table>";
-    let arr = [];
-    let PLAYED = 0;
-
-    function drawGameBoard() {
-        for (let i = 0; i < 10; i++) {
-            caro += '<tr>';
-            arr [i] = [];
-            for (let j = 0; j < 10; j++) {
-                arr[i][j] = '';
-                caro += '<td>' + '<div class="cell" onclick="play(this,'+i+','+j+')"></div>' + '</td>';
-            }
-            caro += '</tr>';
-        }
-        document.getElementById('game_board').innerHTML = caro;
-    }
-
-    function play(cell, x, y) {
-        if (!cell.innerHTML) {
-            switch (PLAYED) {
-                case 1:
-                    cell.innerHTML = "X";
-                    PLAYED = 2;
-                    arr[x][y] = "X";
-                    break;
-                case 2:
-                    cell.innerHTML = "O";
-                    PLAYED = 1;
-                    arr[x][y] = "O";
-                    break;
-                default:
-                    cell.innerHTML = "X";
-                    PLAYED = 2;
-                    arr[x][y] = "X";
-                    break;
-            }
-        }
-    }
-    drawGameBoard();
-</script>
+<script src="My-JS/Function.js"></script>
 </html>
