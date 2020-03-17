@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .checkbox {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="checkbox">
+    <button onclick="check_word()">Check</button>
+    <input type="text" id="check">
+</div>
+<div id='result'></div>
+</body>
+<script>
+    function check_word() {
+        let array_1 = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'],
+            array_2 = ['một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín', 'mười'];
+
+        let check = document.getElementById('check').value;
+        let a = array_1.indexOf(check);
+        if (a !== -1) {
+            document.getElementById('result').innerHTML = ('English: ' + array_1[a] + '  Vietnamese: ' + array_2[a]);
+        } else
+        document.getElementById('result').innerHTML = ('Dictionary is not up to date');
+    }
+
+</script>
+</html>

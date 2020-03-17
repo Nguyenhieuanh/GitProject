@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sinh bảng cửu chương</title>
+</head>
+<body>
+
+</body>
+<script>
+    let multipli_table = "<table border = '1' cellpadding='2'>";
+    for (let i = 1; i <= 9; i++) {
+        multipli_table = multipli_table +"<tr>";
+        for (let j = 1; j <= 9; j++) {
+            multipli_table = multipli_table + "<td align='center'>" + i + 'x' + j + '=' + (i*j) +"</td>";
+        }
+        multipli_table = multipli_table + "</tr>";
+    }
+    multipli_table = multipli_table + "</table>";
+    document.write(multipli_table);
+</script>
+</html>

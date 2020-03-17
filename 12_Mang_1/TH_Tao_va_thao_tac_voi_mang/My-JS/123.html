@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="tinhSoNgay()">Nhập ngày tháng năm</button>
+</body>
+<script>
+
+    function tinhNgay(thang) {
+        switch (thang) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                return 31;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                return 30;
+            case 2:
+                if (kiemTraNamNhuan(nam))
+                    return 29;
+                else
+                    return 28;
+            default:
+                return "Không phải là tháng hơp lệ";
+        }
+    }
+
+    function kiemTraNamNhuan(nam) {
+        return (nam % 400 == 0) || (nam % 4 == 0 && nam % 100 != 0);
+    }
+
+    let dt1_d = 1,
+        dt1_m = 1,
+        dt1_y = 2000, // ngày tháng năm bắt đầu
+        dt2_d = 1,
+        dt2_m = 10,
+        dt2_y = 2005; // ngày tháng năm kết thúc
+
+    let d1 = dt1_y * 365 + dt1_d;
+    for (let i = 1; i < dt1_m; i++) {
+        d1 += tinhNgay(i, dt1_y);
+    }
+    console.log(d1);
+    let d2 = dt2_y * 365 + dt2_d;
+    for (let j = 1; j < dt2_m; j++) {
+        d2 += tinhNgay(j);
+    }
+    console.log(d2);
+
+    alert(d2 - d1);
+</script>
+</html>
