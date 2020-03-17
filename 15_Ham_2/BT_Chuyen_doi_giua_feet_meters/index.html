@@ -1,10 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[Bài tập] Chuyển đổi giữa feet và meters</title>
 </head>
 <body>
-$END$
+<!--Xây dựng hai phương thức sau:
+
+Chuyển đổi từ feet sang meters:
+
+public static double footToMeter(double foot)
+Chuyển đổi từ meters sang feet:
+
+public static double meterToFoot(double meter)
+Công thức chuyển đổi như sau:
+
+      meter = 0.305 * foot
+      foot = 3.279 * meter -->
+
+<input type="number" id="input">
+<button onclick="footToMeter()">Foot To Meter</button>
+<button onclick="meterToFoot()">Meter To Foot</button>
+<div id="result">Result</div>
 </body>
+<script src="My-JS/function.js"></script>
 </html>
