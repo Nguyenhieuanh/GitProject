@@ -105,9 +105,10 @@
     }
 
     let info = '';
-    function Student(serial, studenID, firstName, lastName, doB, country, loginID, className, mathScore, physScore, chemScore) {
+
+    function Student(serial, studentID, firstName, lastName, doB, country, loginID, className, mathScore, physScore, chemScore) {
         this.serial = serial;
-        this.studentID = studenID;
+        this.studentID = studentID;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfbirth = doB;
@@ -117,14 +118,13 @@
         this.mathScore = mathScore;
         this.physScore = physScore;
         this.chemScore = chemScore;
-
         this.getAverageScore = function () {
             return (this.mathScore + this.physScore + this.chemScore) / 3;
         };
         this.show = function () {
             info += `<tr>
-                        <td>${this.serial}</td>
-                        <td>${this.studentID}</td>
+                            <td>${this.serial}</td>
+                            <td>${this.studentID}</td>
                             <td>${this.lastName + " " + this.firstName}</td>
                             <td>${this.dateOfbirth}</td>
                             <td>${this.country}</td>
@@ -133,8 +133,8 @@
                             <td>${this.mathScore}</td>
                             <td>${this.physScore}</td>
                             <td>${this.chemScore}</td>
-                            <td>${this.getAverageScore()}</td>
-                            <td>$</td>
+                            <td>${this.getAverageScore().toFixed(1)}</td>
+                            <td><button>Sửa</button><button>Xoá</button></td>
                             </tr>`;
             document.getElementById('info').innerHTML = info;
 
@@ -154,13 +154,13 @@
         this.studentList = new Array(MAX);
         this.initStudentList = function () {
             for (let i = 0; i < MAX; i++) {
-                let serial = i++;
+                let serial = 1 + i;
                 let studentID = "00" + i;
                 let firstName = Math.random().toString(36).substring(10);
                 let lastName = Math.random().toString(36).substring(5);
-                let doB = '1/1/1999';
-                let country = "****";
-                let loginID = '*****';
+                let doB = (Math.floor(Math.random()*30) + 1) + '/' + (Math.floor(Math.random()*12) + 1) +'/' + (Math.floor(Math.random()*10) + 1990);
+                let country = Math.random().toString(36).substring(10);
+                let loginID = Math.random().toString(36).substring(10);
                 let className = "C0" + Math.round(Math.random() + 1);
                 let mathScore = Math.floor(Math.random() * 10);
                 let physScore = Math.floor(Math.random() * 10);
