@@ -28,15 +28,13 @@ let lamp = function (type) {
     this.type = type;
 
     this.turnOn = function () {
-        if (this.status) {
             console.log('light');
-        }
+            this.status = true;
     };
 
     this.turnOff = function () {
-        if (this.status === false) {
-            console.log('no light');
-        }
+        this.status = false;
+        console.log('no light');
     }
 };
 
@@ -45,6 +43,6 @@ let lamp1 = new lamp("ElectricLamp");
 
 switcher.connectToLamp("ElectricLamp");
 switcher.switchOn();
-console.log(lamp1.status);
+alert(lamp1.status);
 switcher.switchOff();
-console.log(lamp1.status);
+alert(lamp1.status);
