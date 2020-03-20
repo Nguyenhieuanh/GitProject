@@ -1,10 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
+<!--Tạo hàm nhận vào một đối số dạng số,
+tăng giá trị đối số đó lên 1 và trả lại giá trị cho lời gọi hàm.
+Gọi hàm từ trong phần <body> của trang web và hiển thị kết quả lên màn hình.-->
 <body>
-$END$
+<button onclick="clk()">Click</button>
 </body>
+<script>
+    function clk(input = 5) {
+        input += 1;
+        alert("Số tiếp theo là: " + input);
+    }
+</script>
 </html>

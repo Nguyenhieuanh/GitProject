@@ -1,10 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
+
+<!--Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.-->
+
 <body>
-$END$
 </body>
+<script>
+    let no1 = +prompt("Nhập vào số thứ nhất");
+    let no2 = +prompt("Nhập vào số thứ hai");
+
+    function swap(a, b) {
+        let temp = a;
+        a = b;
+        b = temp;
+        console.log(a,b);
+        alert ("no1 = " + a + " , " + "no2 = " + b);
+    }
+
+    swap(no1,no2);
+</script>
 </html>

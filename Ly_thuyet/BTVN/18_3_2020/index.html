@@ -1,10 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
-$END$
+
 </body>
+<script>
+    /*function getDay() {
+        const thứ = ["Chủ nhật","Thức hai","Thức ba","Thức tư","Thức năm","Thức sáu","Thức bảy"];
+        let d = new Date();
+        let Dayindex = d.getDay();
+        return thứ[Dayindex];
+    }
+
+    let d1 = new Date();
+
+    for (let i = 0; i < 100000000; i++);
+
+    let d2 = new Date();
+
+    alert(d2.getMilliseconds() - d1.getMilliseconds())*/
+
+
+    function normalizeString(str) {
+        let a = str.split(" ");
+        alert(a);
+
+        let b = new Array();
+
+        for (let i = 0; i < a.length; i++) {
+            if (a[i].length > 0) {
+                b.push(a[i]);
+            }
+        }
+        alert(b);
+        let tmp = b.join(" ");
+        let tmpUpper = tmp.toUpperCase();
+
+        tmp = tmp.toLowerCase();
+        tmp = tmpUpper.charAt(0) + tmp.substring(1, tmp.length);
+
+        for (let i = 0; i < tmp.length; i++) {
+            if (tmp.charAt(i) === " ") {
+                tmp = tmp.substring(0, i + 1) + tmpUpper.charAt(i + 1) + tmp.substring(i + 2, tmp.length);
+            }
+        }
+
+        return tmp;
+
+    }
+
+    alert(normalizeString("   Nguyễn    ANH JASDFASDF      "));
+</script>
 </html>

@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script>
+        /*
+        Nhập số phân tử  của mảng.
+        Sinh ngẫu nhiên mảng
+        Tính tổng các phần tử của mảng
+
+
+        *BT:
+          1. Tính tổng các số chẵn, lẻ, chính phương, nguyên tố
+          2. Sắp xếp theo thứ tự tăng dần.
+          3. Sắp xếp sao cho các số lẻ tăng dần và các số chẵn giảm dần**/
+
+        /*---------------main----------*/
+        let myArray = new Array();
+        initArray();
+        showArray();
+        console.log("Tổng là: " + calsum());
+        /*--------utility functions ---------*/
+        function initArray(){
+            let count = +prompt("Nhập số phần tử của mảng");
+            for(let i = 0; i< count; i++)
+                myArray.push(Math.round(1000*Math.random()));
+        }
+        function showArray(){
+            for(let i = 0; i< myArray.length; i++)
+                console.log(myArray[i]);
+        }
+        function calsum() {
+            let sum = 0;
+            for(let i = 0; i< myArray.length; i++)
+                sum += myArray[i];
+            return sum;
+        }
+    </script>
 </head>
 <body>
-$END$
 </body>
-</html>

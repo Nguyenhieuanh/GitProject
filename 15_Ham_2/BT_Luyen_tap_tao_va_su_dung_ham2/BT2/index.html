@@ -1,10 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
+<!--Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. 
+Gọi hàm vừa xây dựng được-->
 <body>
-$END$
+
 </body>
+<script>
+    const PI = 3.1415;
+    let radius = +prompt("Nhập bán kính đường tròn");
+    let result;
+    function squareOfCircle(r) {
+        result = r*r*PI;
+        alert('Diện tích đường tròn có bán kính ' + r + ' là ' + result);
+    }
+    squareOfCircle(radius);
+</script>
 </html>

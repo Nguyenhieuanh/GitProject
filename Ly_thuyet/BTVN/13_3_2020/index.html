@@ -2,9 +2,144 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Document</title>
 </head>
 <body>
-$END$
+<input type="text" id="numberOf_array">
+<button onclick="showArray()">Push</button>
+<button onclick="calSum()">Sum</button>
+<button onclick="calSum_odd()">Sum_odd</button>
+<button onclick="calSum_even()">Sum_even</button>
+<button onclick="calSum_sqrt()">Sum_sqrt</button>
+<button onclick="calSum_prime()">Sum_Prime</button>
+<button onclick="sort_arr3()">Sort</button>
+<br/>
+<div id="array"></div>
+<div id="result">Tổng là</div>
+<div id="result_odd">Tổng lẻ là</div>
+<div id="result_even">Tổng chẵn là</div>
+<div id="result_sqrt">Tổng chính phương là</div>
+<div id="result_prime">Tổng nguyên tố là</div>
 </body>
+<script>
+    /*
+        Nhấp số phần tử của mảng
+        Sinh ngẫu nhiên mảng
+        Tính tổng các phần tử của mảng
+        Bài tập:
+        1/ Tính tổng các số chẵn, số lẻ, số chính phương, sos nguyên tố của mảng.
+        2/ Sắp xếp mảng theo thứ tự tăng dần.
+        3(**)/ Sắp xếp mảng sao cho các số lẻ tăng dần và các số chẵn giảm dần.
+     */
+
+
+    let myArray = [];
+    let num = document.getElementById('numberOf_array');
+
+
+    function initArray() {
+        let count = parseInt(num.value);
+        for (let i = 0; i < count; i++)
+            myArray.push(Math.round(1000 * Math.random()));
+    }
+
+    function showArray() {
+        initArray();
+        for (let i = 0; i < myArray.length; i++)
+            document.getElementById('array').innerHTML = myArray;
+    }
+
+    function calSum() {
+        let sum = 0;
+        for (let i = 0; i < myArray.length; i++)
+            sum += myArray[i];
+        document.getElementById('result').innerHTML = 'Tổng là ' + sum;
+    }
+
+    function calSum_odd() {
+        let sum_odd = 0;
+        for (let i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 !== 0) {
+                sum_odd += myArray[i];
+            }
+        }
+        document.getElementById('result_odd').innerHTML = 'Tổng lẻ là ' + sum_odd;
+    }
+
+    function calSum_even() {
+        let sum_even = 0;
+        for (let i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 === 0) {
+                sum_even += myArray[i];
+            }
+        }
+        document.getElementById('result_even').innerHTML = 'Tổng chẵn là ' + sum_even;
+    }
+
+    function calSum_sqrt() {
+        let sum_sqrt = 0;
+        let newarray = [];
+        for (let i = 0; i < myArray.length; i++) {
+            if (Math.sqrt(myArray[i]) % 1 === 0) {
+                sum_sqrt += myArray[i];
+                newarray.push(myArray[i]);
+            }
+        }
+        document.getElementById('result_sqrt').innerHTML = 'Số chính phương là ' + newarray + ' Tổng chính phương là ' + sum_sqrt;
+    }
+
+    function calSum_prime() {
+        let newarray = [];
+        let sum_prime = 0;
+        for (let i = 0; i < myArray.length; i++) {
+            let Prime = true;
+            if (myArray[i] < 2) {
+                Prime = false;
+            }
+            for (let j = 2; j <= myArray[i] / 2; j++) {
+                if (myArray[i] % j === 0) {
+                    Prime = false;
+                }
+            }
+            if (Prime === true) {
+                sum_prime += myArray[i];
+                newarray.push(myArray[i]);
+            }
+        }
+        document.getElementById('result_prime').innerHTML = newarray + 'Tổng nguyên tố là ' + sum_prime;
+    }
+
+    function sort_asc() {
+        myArray.sort(function (a, b) {
+            return a - b
+        })
+    }
+
+    sort_asc();
+
+    function sort_arr3() {
+        let myarr_even = [];
+        for (let i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 === 0) {
+                myarr_even.push(myArray[i]);
+            }
+        }
+        myarr_even.sort(function (a, b) {
+            return b - a
+        });
+
+        let myarr_odd = [];
+        for (let i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 !== 0) {
+                myarr_odd.push(myArray[i]);
+            }
+        }
+        myarr_odd.sort(function (a, b) {
+            return a - b
+        });
+        myArray = myarr_odd.concat(myarr_even);
+        console.log(myArray);
+    }
+
+</script>
 </html>

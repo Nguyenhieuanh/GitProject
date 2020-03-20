@@ -1,10 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
+<!--Bài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào.
+Gọi hàm vừa xây dựng được.-->
 <body>
-$END$
+
 </body>
+<script>
+    let num = +prompt("Nhập vào số muốn tính giai thừa");
+    let result = 1;
+    function calFactorial(n) {
+        for (let i = 1; i<= n; i++)
+        result *= i;
+        alert(n + "! = " + result);
+    }
+    calFactorial(num);
+</script>
 </html>

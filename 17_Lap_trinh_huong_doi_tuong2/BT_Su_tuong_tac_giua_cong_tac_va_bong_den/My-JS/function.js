@@ -3,17 +3,13 @@ let switchButton = function (lamp) {
     this.connectstatus = false;
     this.lamp = lamp;
 
-    this.button = function () {
-        return this.status === !this.status;
-    };
-
     this.connectToLamp = function (obj) {
         this.lamp = obj;
         this.connectstatus = true;
     };
 
     this.switchOn = function (lamp) {
-        if (!this.status && this.connectstatus)
+        if (this.status && this.connectstatus)
             lamp.turnOn();
     };
 
@@ -21,28 +17,42 @@ let switchButton = function (lamp) {
         if (this.status && this.connectstatus)
             lamp.turnOff();
     };
-}
+};
 
-let lamp = function (type) {
-    this.status = true;
-    this.type = type;
-
+let lamp = function () {
     this.turnOn = function () {
-            console.log('light');
-            this.status = true;
+        console.log('light');
     };
 
     this.turnOff = function () {
-        this.status = false;
         console.log('no light');
     }
 };
 
-let switcher = new switchButton("ElectricLamp");
-let lamp1 = new lamp("ElectricLamp");
+let switcher = new switchButton("electricLamp");
+let lamp1 = new lamp("electricLamp");
 
-switcher.connectToLamp("ElectricLamp");
-switcher.switchOn();
-alert(lamp1.status);
-switcher.switchOff();
-alert(lamp1.status);
+switcher.connectToLamp(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+switcher.switchOn(lamp1);
+switcher.switchOff(lamp1);
+
+
+
+
+

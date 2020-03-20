@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    const MAX = 10;
+
+    function MyArray() {
+        this.arr = new Array(MAX);
+
+        this.init = function () {
+            for (let i = 0; i < MAX; i++)
+                this.arr[i] = Math.round(Math.random() * 1000);
+        };
+
+        this.show = function () {
+            document.write(this.arr.join("  "));
+        };
+
+        this.frequencySearch = function (x) {
+            let result = [];
+            for (let i = 0; i < this.arr.length; i++)
+                if (this.arr[i] === x)
+                    result.push(i);
+            return result;
+        };
+
+        this.binarySearch = function (x) {
+            let i = 0;
+            let j = this.arr.length - 1;
+            while (i <= j) {
+                let k = Math.floor((i + j) / 2);
+                if (this.arr[k] === x) {
+                    return k;
+                } else if (this.arr[k] > x) {
+                    j = k - 1;
+                } else
+                    i = k + 1;
+
+            }
+            return -1;
+        };
+
+        this.binarySearchRecursive = function (left, right, x) {
+            if (left > right)
+                return -1;
+            let middle = Math.floor((left + right) / 2);
+
+            if (this.arr[middle] === x)
+                return middle;
+            else if (this.arr[middle] > x)
+                return this.binarySearchRecursive(left, middle - 1, x);
+            else
+                return this.binarySearchRecursive(middle + 1, right, x);
+        };
+
+        this.selectionSort = function () {
+            for (let i = 0; i < this.arr.length - 1; i++)
+            {
+                let pos = i;
+                for (let j = i + 1; j < this.arr.length; j++)
+                    if(this.arr[j] < this.arr[pos])
+                        pos = j;
+                let tmp = this.arr[i];
+                this.arr[i] = this.arr[pos];
+                this.arr[pos] = tmp;
+            }
+        };
+    }
+
+    function main() {
+        let myArr = new MyArray();
+
+        myArr.init();
+        myArr.show();
+        console.log(myArr.binarySearchRecursive());
+    }
+    main();
+</script>
+</html>

@@ -1,10 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
-$END$
+
 </body>
+<script>
+    /* viết hàm tính giai thừa của một số nguyên dương*/
+    function calFractorial(n) {
+        let s = 1;
+        for (let i = 1; i <= n; i++)
+            s *= i;
+        return s;
+    }
+
+    function main() {
+        let n = +prompt('nhập số nguyên dương:');
+        alert("giá trị giai thừa là: " + calFractorial(n));
+    }
+
+    main()
+
+    //Thuật toán đệ quy
+
+    function calFractorialRec(n) {
+        if (n == 1)
+            return 1;
+        else
+            return n * calFractorial(n - 1);
+    }
+
+    function main1() {
+        let n = +prompt('Nhâp số nguyên dương:');
+        alert(calFractorialRec(n));
+    }
+
+    main1()
+</script>
 </html>

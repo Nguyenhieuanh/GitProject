@@ -1,10 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
+<!--Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.-->
 <body>
-$END$
+
 </body>
+<script>
+    function minNumber() {
+        let
+        no1 = +prompt("Nhập vào số thứ nhất:"),
+        no2 = +prompt("Nhập vào số thứ hai:"),
+        no3 = +prompt("Nhập vào số thứ 3: ");
+        let min;
+        (no1 < no2) ? (min = no1) : ((no2 < no3) ? min = no2 : min = no3);
+        alert("Giá trị nhỏ nhất là " + min);
+    }
+    minNumber();
+</script>
 </html>

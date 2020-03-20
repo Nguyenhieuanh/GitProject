@@ -1,10 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
+<style>
+    div {
+        margin-top: 50px;
+    }
+</style>
+<!--Bài 1: Chuyển từ độ C sang độ F.
+°C  x  9/5 + 32 = °F-->
 <body>
-$END$
+<div>
+    <input type="text" value="100" id="input" style="width: 50px">
+    <select id="select1">
+        <option value="C">&deg;C</option>
+        <option value="F">&deg;F</option>
+    </select>
+    <input type="text" id="output" style="width: 50px">
+    <select id="select2">
+        <option value="C">&deg;C</option>
+        <option value="F">&deg;F</option>
+    </select>
+    <button onclick="conVert()">Convert</button>
+</div>
 </body>
+<script src="My-JS/function.js"></script>
 </html>

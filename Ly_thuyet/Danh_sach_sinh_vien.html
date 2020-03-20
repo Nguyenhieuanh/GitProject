@@ -15,8 +15,12 @@
 <form action="#" method="p" id="myForm">
     <table>
         <tr>
-            <td width="100">Họ tên</td>
-            <td><input type="text" name="fullname" value="Nguyễn Văn An"></td>
+            <td width="100">Họ</td>
+            <td><input type="text" name="last" value="Nguyễn"></td>
+        </tr>
+        <tr>
+            <td width="100">Tên</td>
+            <td><input type="text" name="first" value="Văn An"></td>
         </tr>
         <tr>
             <td>Ngày sinh</td>
@@ -64,7 +68,7 @@
 
         <tr>
             <td width="100"></td>
-            <td><input type="submit" value="Gửi">
+            <td><input type="submit" id="update" value="Gửi">
                 <input type="reset" value="Nhập lại">
                 <input type="button" value="Đóng" onclick="closeForm()"></td>
         </tr>
@@ -134,7 +138,7 @@
                             <td>${this.physScore}</td>
                             <td>${this.chemScore}</td>
                             <td>${this.getAverageScore().toFixed(1)}</td>
-                            <td><button>Sửa</button><button>Xoá</button></td>
+                            <td><button>Sửa</button><button id="del">Xoá</button></td>
                             </tr>`;
             document.getElementById('info').innerHTML = info;
 
@@ -175,6 +179,25 @@
                 this.studentList[i].show();
             }
         }
+
+        this.addList = function () {
+            let serial = this.studentList.length + 1;
+            let studentID = document.getElementById('sId').value;
+            let firstName = document.getElementById('first').value;
+            let lastName = document.getElementById('last').value;
+            let doB = document.getElementById('birthday').value;
+            let country = document.getElementById('country').value;
+            let loginID = document.getElementById('ID').value;
+            let className = document.getElementById('class').value;
+            let mathScore = document.getElementById('math').value;
+            let physScore = document.getElementById('phys').value;
+            let chemScore = document.getElementById('chem').value;
+
+            let sv_ = new Student(serial, studentID, firstName, lastName, doB, country, loginID, className, mathScore, physScore, chemScore);
+            this.studentList[serial-1] = sv_;
+            this.studentList[serial-1].show();
+
+        }
         this.sortStudentList = function () {
             this.studentList.sort(function (sv1, sv2) {
                 return sv1.getAverageScore() - sv2.getAverageScore();
@@ -187,8 +210,9 @@
         sList.initStudentList();
         sList.showList();
         document.write('<hr>');
-        sList.sortStudentList();
-        sList.showList();
+        document.getElementById('update').onlick = function () {
+            sList.addList();
+        }
     }
 
     main();
