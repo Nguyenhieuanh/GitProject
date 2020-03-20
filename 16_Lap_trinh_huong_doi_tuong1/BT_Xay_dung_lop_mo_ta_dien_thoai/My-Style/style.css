@@ -1,0 +1,41 @@
+.mobile {
+    width: 300px;
+    margin: 50px 50px 50px;
+    float: left;
+    border: 1px solid black;
+    color: cornflowerblue;
+}
+
+.name {
+    width: 250px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+.inbox, .sent {
+    text-align: left;
+    height: 200px;
+    border-bottom: 1px solid black;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.battery {
+    border-bottom: 1px solid;
+    text-align: right;
+    width: auto;
+    margin-right: 3px;
+    margin-left: 200px;
+}
+
+.button {
+    text-align: center;
+    margin: 3px auto 3px;
+}
+
+input {
+    width: 240px;
+    margin-left: 2px;
+}

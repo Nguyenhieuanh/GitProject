@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="My-Style/style.css">
+</head>
+<body>
+<div class="mobile">
+    <div class="name" id="Iphone">Iphone</div>
+    <div class="battery" id="Iphone-energy">100%</div>
+    <div class="inbox" id="Iphone-inbox">Inbox</div>
+    <div class="sent" id="Iphone-sent">Sent</div>
+    <div class="texting">
+        <input type="text" id="Iphone-texting" oninput="mobile1.texting(this.value)">
+        <button onclick="sendMsg(mobile1,mobile2)">Send</button>
+    </div>
+    <div class="button">
+        <button id="Iphone-power" style="width: 50px" onclick="mobile1.on_off()">O</button>
+    </div>
+</div>
+
+<div class="mobile">
+    <div class="name" id="SamSung">SamSung</div>
+    <div class="battery" id="SamSung-energy">100%</div>
+    <div class="inbox" id="SamSung-inbox">Inbox</div>
+    <div class="sent" id="SamSung-sent">Sent</div>
+    <div class="texting">
+        <input type="text" id="SamSung-texting" oninput="mobile2.texting(this.value)">
+        <button onclick="sendMsg(mobile2,mobile1)">Send</button>
+    </div>
+    <div class="button" onclick="onoff()">
+        <button style="width: 50px" id="SamSung-power" onclick="mobile2.on_off()">O</button>
+    </div>
+</div>
+</body>
+<script src="My-JS/function.js"></script>
+</html>
