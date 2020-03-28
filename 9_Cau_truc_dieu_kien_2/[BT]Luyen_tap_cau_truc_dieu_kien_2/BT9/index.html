@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[*Bài tập] Luyện tập cấu trúc điều kiện 02</title>
+</head>
+<body>
+Bài 9: Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác. Điều kiện để a,b,c là cạnh của một tam
+giác là:
+
+a,b,c > 0
+a + b > c
+b + c > a
+a + c > b
+</body>
+<div>Cạch 1</div>
+<input type="text" id="canh1">
+<div>Cạnh 2</div>
+<input type="text" id="canh2">
+<div>Cạnh 3</div>
+<input type="text" id="canh3">
+<button onclick="check()" value="check">Check</button>
+
+<script>
+    function check() {
+        let a = document.getElementById('canh1').value,
+            b = document.getElementById('canh2').value,
+            c = document.getElementById('canh3').value;
+        a = parseFloat(a)
+        b = parseFloat(b)
+        c = parseFloat(c)
+        if ((a + b > c) && (a + c > b) && (b + c > a) && a > 0 && b > 0 && c > 0) {
+            alert("Đây là 3 cạnh của 1 tam giác");
+        } else
+            alert("Đây không phải là 3 cạnh 1 tam giác");
+    }
+</script>
+</html>
